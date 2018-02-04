@@ -27,3 +27,12 @@ def dfs(list,v):
             check2[v] = 1
             dfs(list,i)
 
+glist = [[] for i in range(n+1)]
+
+while m:
+
+    a,b = map(int,input().split())
+    glist[a].append(b)
+    m -= 1
+
+
