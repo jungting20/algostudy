@@ -4,6 +4,7 @@ import sys
 r = lambda: sys.stdin.readline().strip()
 
 
+
 def isValid(s):
     n = len(s)
     cnt = 0
@@ -21,8 +22,11 @@ def isValid(s):
 
 n = int(r())
 
-for i in range(n):
-    print(isValid(r()))
 
 
+
+# for i in range(n):
+#     print(isValid(r()))
+#
+#
 
